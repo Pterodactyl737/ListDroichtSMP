@@ -1,0 +1,47 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f8ff;
+}
+
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+#products {
+    margin-top: 20px;
+}
+
+.product {
+    border: 1px solid #1e90ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #e6f2ff;
+}
+
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
